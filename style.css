@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #FF5959;
+    --plan2: #FF5959;
+    --plan3: #FFF4D6;
+}
+
+/* Default CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans', sans-serif;
+}
+
+/* Banner Section CSS Start */
+.banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner{
+    background:url(images/Ellipse\ 257.png) no-repeat right;
+    background-position: bottom right;
+    height: 100vh;
+}
+.banner-content {
+    width: 50%;
+}
+.banner-img{
+    width: 100%;
+    max-height: 100%;
+}
+.banner-content {
+    width: 100%;
+    padding-left: 30px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+.banner-content div{
+    width: 60%;
+}
+.banner-content .banner-title{
+    width: 60%;
+}
+.banner-content .banner-description{
+    width: 55%;
+}
+.banner-title {
+    font-size: 3rem;
+    color: #fff;
+}
+.banner-content .banner-title {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+.banner-description {
+    color: #fff;
+    margin: 1.3rem 0;
+}
+.banner-content .banner-description {
+    color: rgb(90, 89, 89);
+    margin: 1.3rem 0;
+}
+.banner-btn{
+    color: #000;
+}
+.banner-btn{
+    border: none;
+    margin-left: 1rem;
+    background: transparent;
+}
+.banner-btn i{
+    font-size: 1rem;
+    color: #707070;
+}
+
+.primary-btn {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+}
